@@ -66,7 +66,7 @@ export default function Projects() {
                   Code
                 </a>
                 <a
-                  href={project.link}
+                  href={project.dlink}
                   target="_blank"
                   className="inline-flex items-center gap-2 rounded-full border border-gray-300 px-4 py-2 text-xs font-medium text-gray-700 transition hover:scale-105 dark:border-white/20 dark:text-white/80"
                 >

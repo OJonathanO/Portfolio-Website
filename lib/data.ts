@@ -125,11 +125,11 @@ export const skillsData = skillsGroups.flatMap((g) => g.skills);
 export const experiencesData = [
   {
     title: "Java Backend Developer Intern",
-    location: "NxtGenAI � Bangalore, Karnataka",
+    location: "NxtGenAI  Bangalore, Karnataka",
     description:
       "Developed and maintained RESTful APIs using Java and Spring Boot for an enterprise-level application following a layered architecture. Built and maintained REST endpoints with Spring MVC annotations such as @RestController, @RequestMapping, and @PathVariable; explored asynchronous processing with @EnableAsync and ThreadPoolTaskExecutor, and debugged existing backend features following coding standards and best practices.",
     icon: createElement(MdWorkOutline),
-    date: "Jan 2026 - May 2026",
+    date: "Jan 2026 - June 2026",
   },
 ] as const;
 
@@ -152,7 +152,9 @@ export const projectsData = [
       "Transforms static educational materials into interactive, citation-backed conversations using RAG. Ingests PDF/DOCX/TXT, retrieves relevant chunks, and grounds LLM answers in source material with citations.",
     tech: ["Python", "RAG", "Machine Learning", "NLP", "FastAPI", "ChromaDB", "OpenAI"],
     year: "2025",
-    link: "https://github.com/OJonathanO",
+    link: "https://github.com/OJonathanO/OrionX-AI-Educational-Platform/tree/master",
+    dlink: "https://github.com/OJonathanO/OrionX-AI-Educational-Platform/blob/master/README.md",
+
   },
   {
     title: "Message Fraud Detection System",
@@ -161,7 +163,8 @@ export const projectsData = [
       "Full-stack application that classifies text messages as spam or legitimate using TF-IDF + Logistic Regression, with risk levels, explainability, prediction history, CSV export, and an analytics dashboard.",
     tech: ["Flask", "React", "NLP", "Machine Learning", "scikit-learn", "Vite"],
     year: "2024",
-    link: "https://github.com/OJonathanO",
+    link: "https://github.com/OJonathanO/Message-Fraud-Detection-System/tree/master",
+    dlink: "https://github.com/OJonathanO/Message-Fraud-Detection-System/blob/master/README.md",
   },
   {
     title: "Library Management System",
@@ -169,7 +172,8 @@ export const projectsData = [
     description:
       "Full-stack library system with JWT auth and role-based access for admins and users: books, authors, categories, borrow requests, returns, reservations, fines, payments, notifications, audit logs, and dashboard analytics.",
     tech: ["Java", "Spring Boot", "MySQL", "JWT", "Flyway", "Bootstrap"],
-    year: "2025",
-    link: "https://github.com/OJonathanO",
+    year: "2023",
+    link: "https://github.com/OJonathanO/Library-Management-System/tree/master",
+    dlink: "https://github.com/OJonathanO/Library-Management-System/blob/master/README.md",
   },
 ] as const;
