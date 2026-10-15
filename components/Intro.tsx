@@ -93,7 +93,7 @@ export default function Intro() {
             animate={{ opacity: 1, y: 0 }}
             className="mt-4 text-center text-sm font-medium text-gray-500 sm:text-base"
           >
-            Computer Science &amp; Business Systems graduate � Dubai, UAE
+            Computer Science &amp; Business Systems graduate 
           </motion.p>
         </div>
         <motion.div
