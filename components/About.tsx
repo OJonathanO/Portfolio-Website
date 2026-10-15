@@ -9,7 +9,7 @@ import SectionHeading from "./SectionHeading";
 const facts = [
   {
     label: "Current Role",
-    value: "Java Backend Developer Intern, NxtGenAI",
+    value: "Open to New Opportunities",
     icon: MdWorkOutline,
   },
   {
